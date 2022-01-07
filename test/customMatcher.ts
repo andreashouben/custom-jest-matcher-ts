@@ -1,5 +1,3 @@
-/// <reference path='./customMatcher.d.ts' />
-
 expect.extend(({
     toBeAwesome(received: string) {
         const pass = received.toLocaleLowerCase().trim() === 'awesome'
