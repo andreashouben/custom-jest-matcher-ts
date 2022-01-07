@@ -12,5 +12,4 @@ describe('test with custom matcher', () =>{
         expect('lame').not.toBeAwesome()
     })
 
-
 })
